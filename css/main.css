@@ -1,16 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Raleway|Roboto+Slab|Lora');
-
-
-
-    /*font-family: 'Roboto Slab', serif;
-
-    font-family: 'Lato', sans-serif;
-
-    font-family: 'Raleway', sans-serif;
-
-    font-family: 'Great Vibes', cursive;*/
-
 
 body {
 	width: 100%;
@@ -119,9 +107,9 @@ hr {
 	font-weight: 300;
 	font-family: 'Lora';
 }
-
+https://lawrencecheng123.github.io/Seattle.jpg
 #fon{
-	background: url(img/SA.jpg) no-repeat center top;
+	background: url(https://pru-nus.github.io/css/img/SA.jpg) no-repeat center top;
 	margin-top: -30px;
 	padding-top: 60px;
 	text-align: center;
