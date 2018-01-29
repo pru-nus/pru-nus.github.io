@@ -109,7 +109,8 @@ hr {
 }
 
 #fon{
-	background-image:url("pru-nus.github.io/css/SA.jpg") no-repeat center top;
+	background-image: url("https://pru-nus.github.io/css/SA.jpg"); 
+	background-image: no-repeat center top;
 	margin-top: -30px;
 	padding-top: 60px;
 	text-align: center;
