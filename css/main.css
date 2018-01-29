@@ -109,7 +109,7 @@ hr {
 }
 https://lawrencecheng123.github.io/Seattle.jpg
 #fon{
-	background: url(https://pru-nus.github.io/css/img/SA.jpg) no-repeat center top;
+	background: url("https://pru-nus.github.io/css/img/SA.jpg") no-repeat center top;
 	margin-top: -30px;
 	padding-top: 60px;
 	text-align: center;
