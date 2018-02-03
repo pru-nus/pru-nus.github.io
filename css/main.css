@@ -63,7 +63,7 @@ hr {
 }
 
 .navbar-inverse {
-	background: #24292E;
+	background: linear-gradient(#515b66, #24292E);
 	border-bottom: 3px solid #323b44;
 	
 }
