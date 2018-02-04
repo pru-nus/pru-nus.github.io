@@ -62,27 +62,38 @@ hr {
 	color: #4faf7d;
 }
 
+ /* #34495e #24292E */
 .navbar-inverse {
-	background: linear-gradient(#515b66, #24292E);
+	background: rgba(36, 41, 46, 0.95);
 	border-bottom: 3px solid #323b44;
-	
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-color: #0d1319;
+	background:  #2c3e50;
 	border-bottom: 3px solid #323b44;
-	color: #4faf7d;
-	
-	
+	color: #CC9E02;	
 }
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #2c3e50;
+	border-bottom: 3px solid #323b44;
+	color: #ff6f00;	
+}
+
 
 .navbar-inverse .navbar-nav > .inactive > a {
 	letter-spacing: 1px;
-	color: #4faf7d;
+	color: #CC9E02;
 }
 
+.navbar-inverse .navbar-nav > .inactive > a:hover {
+	letter-spacing: 1px;
+	color: #ff6f00;
+}
+
+
 .navbar-inverse .navbar-brand {
-	color: #4faf7d;
+	color: #CC9E02;
 	letter-spacing: 1px;
 }
 
@@ -108,11 +119,12 @@ hr {
 	font-family: 'Lora';
 }
 
+
 #fon{
 	background-image: url("https://pru-nus.github.io/css/SA.jpg"); 
 	background-image: no-repeat center top;
-	margin-top: -30px;
-	padding-top: 60px;
+	margin-top: -70px;
+	padding-top: 80px;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
@@ -125,17 +137,25 @@ hr {
 	background-size: cover;
 }
 
-.row{
-	padding-left: 30px;
-	padding-right: 30px;
+
+#profphoto{
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
+.row{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 .section-inner{
-	background-color: #fcfffe;
+	background-color: rgba(227, 242, 237, 0.7);
 	padding: 20px;
 	margin-bottom: 20px;
 	border-bottom: 3px solid #24292E;
-	box-shadow: 0 0 15px rgba(0,0,0,0.7);
+	box-shadow: 0 0 20px rgba(0,0,0, 0.8);
 }
 
 .section-inner h2 {
@@ -155,9 +175,7 @@ hr {
 .skills .intro {
 	margin-bottom: 30px;
 }
-#skillassessment{
-	color: #a3a7af;
-}
+
 .skills .skillset .item {
 	margin-bottom: 30px;
 	padding-left: 30px;
@@ -172,21 +190,28 @@ hr {
 .skills .skillset .level-title .level-label{
 	color: #ccd1d6;
 	font-size: 14px;
-	font-weight: 400;
-	font-family: "Lato", arial, sans-serif;
+	font-weight: 600;
+	font-family: "Lora", arial, sans-serif;
 	position: absolute;
 	right: 0;
 	top: 0;
 }
 .skills .skillset .level-bar {
 	height: 15px;
-	background: #bdc4cc;
+	background-color: rgba(227, 242, 237, 0.7);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #8bbcf9;
+  background: #CC9E02;
+  
 }
 
+#skillassessment{
+	color: #58595b;
+	margin-bottom: -25px;
+	text-align: right;
+}
 /* Language Section */
 .languages .item {
 	margin-bottom: 15px;
@@ -205,7 +230,7 @@ hr {
 }
 
 .languages .item .fa {
-	color: #8bbcf9;
+	color: #CC9E02;
 }
 
 .summary{
@@ -214,7 +239,7 @@ hr {
 
 
 #g{
-	background: #24292E;
+	background: linear-gradient(#24292E, #363c42);
 	border-top: 3px solid #323b44;
 	padding-top: 20px;
 	padding-bottom: 15px;
