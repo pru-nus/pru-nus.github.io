@@ -35,6 +35,16 @@ a:focus {
 	color: #e53309;
 }
 
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #24292E;
+	margin: 1em 0;
+	padding: 0;
+	
+}
+
 .centered {
 	text-align: center;
 }
