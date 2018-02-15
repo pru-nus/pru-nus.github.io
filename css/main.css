@@ -139,6 +139,13 @@ hr {
 	background-size: cover;
 }
 
+#interests{
+	margin-bottom: -20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
 
 #profphoto{
 	display: block;
