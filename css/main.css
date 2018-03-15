@@ -75,7 +75,8 @@ hr {
 .navbar-inverse .navbar-nav > .active > a {
 	background:  #2c3e50;
 	border-bottom: 3px solid #323b44;
-	color: #CC9E02;	
+	color: #CC9E02;
+	border-radius: 5px;
 }
 
 .navbar-inverse .navbar-nav > .active > a:hover {
