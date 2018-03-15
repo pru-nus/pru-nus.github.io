@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Lora:400,700|Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600');
 
 #interests{
 	margin-bottom: -20px;
@@ -61,7 +61,7 @@ hr {
 	font-size: 16px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-family: "Lora";
+	font-family: "Lato";
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #4faf7d;
@@ -103,7 +103,7 @@ hr {
 }
 
 #experience{
-	font-family: "Lora";
+	font-family: "Lato";
 }
 
 
@@ -119,14 +119,14 @@ hr {
 	color: #24292E;
 	font-size: 18px;
 	font-weight: 400;
-	font-family: 'Lora';
+	font-family: 'Lato';
 }
 
 #myprof{
 	color: #24292E;
 	font-size: 14px;
 	font-weight: 300;
-	font-family: 'Lora';
+	font-family: 'Lato';
 }
 
 
