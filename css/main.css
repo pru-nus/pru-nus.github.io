@@ -159,11 +159,12 @@ hr {
 
 
 .section-inner{
-	background-color: rgba(227, 242, 237, 0.7);
+	background-color: rgba(227, 242, 237, 0.6);
 	padding: 20px;
 	margin-bottom: 20px;
 	border-bottom: 3px solid #24292E;
 	box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+	border-radius: 10px;
 }
 
 .section-inner h2 {
