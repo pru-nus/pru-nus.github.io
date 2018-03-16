@@ -73,7 +73,7 @@ hr {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background:  #2c3e50;
+	background:  rgba(227, 242, 237, 0.9);
 	border-bottom: 3px solid #323b44;
 	color: #CC9E02;
 	border-radius: 5px;
@@ -150,7 +150,7 @@ hr {
 #profphoto{
 	display: block;
 	margin: 0 auto;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .row{
