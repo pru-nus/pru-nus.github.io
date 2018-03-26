@@ -41,6 +41,74 @@
 <div class="container col-lg-6">
 	<div class="row"><!--row-->	
 		<div id="newsblock">
+			
+			
+			<section class="latest section">
+                    <div class="section-inner">
+                        <!--<h2 class="heading"></h2>-->
+                        <div class="content">    
+							<div id="posttitle" class="col-lg-6 col-md-6 desc text-left">
+								<h3>First IoT DIY</h3>
+							</div>
+							<div id="postdate" class="col-lg-6 col-md-6 desc text-right">
+								<h4>26.03.2018</h4>
+							</div>
+							
+                            <div class="item featured text-center">								
+                                <div class="desc text-left">
+								
+								<br>
+								
+                                    <p>
+									<br>
+									<br>
+									A few months ago I came across an amazing variety of the Internet of Things (IoT) DIY possibilities that an amateur with no electric or IT education can do these days.
+									There are plenty of open source services, which allow you to send data, store it and visualize it, not mentioning the simple load controls like relays.
+									But it actually took me a while to realize that. When I finally did, I run to order a bunch of "made in China" microcontrollers and sensors to set a WiFi weather monitoring station in may room (the first thing that a newby like me would do).
+									They took a month to come and this is what came out of all of that.
+									</p>
+                                    <p>
+									A thing like weather monitoring station could make use in lots of projects, but for me it was more of a challenge rather than a wish to know the air quality in my own room, and of course I wanted it to work on WiFi.
+									In addition, my Master's thesis expreriment involved growing trees plantlets in a growth chamber. While a chamber has an LCD monitor, where all the indoor conditions are shown, it does not allow to
+									store the data, and one cannot know the exact conditions inside the chamber without actually being at the university and looking at the display. Such device could make a hell lot of use during that thesis experiment.
+									At this point the choice of a microcontroller was already obvious. I decieded to use ESP8266 by Node-MCU, because it has all the features of an Arduino Nano/Mini/Uno plus an integrated WiFi module, and it is very cheap.
+									And more importantly, the most of the libraries that are out there for Arduino are fully compartible with ESP8266 and the board itself can be programmed in an Arduino IDE.
+									</p>									
+									<p>
+									There many servises to process the data if you are an amateur or do not want to bother yourself with setting up your own server.
+									My choice fell on Blynk and ThingSpeak, two open source cloud platforms for IoT projects that easily work together.
+									<a href="https://www.blynk.cc/">Blynk</a> is a mobile app, which works with the most popular microcontrollers like arduino, ESP32/8266 and also Raspberry Pi.
+									And <a href="https://thingspeak.com/">ThingSpeak</a> is the similar platform but working in the internet browser.
+									</p>
+									<p>
+									There is also a nice boquette of sensors to chose from. I took BME280 because it measures air temperature, humidity and pressure at once. The sensor has an analog-to-digital converter (ADC), and works by I2C bus, so the connection is also an easy task.
+									It can work with 3.3V of ESP8266 output.
+									<div class="featured-image">
+                                 		<img class="img-responsive project-image" style="float: right;" src="" alt="IMAGE" />
+									</div>
+									</p>
+									<p>
+									The live results of this little experiment brodcasting from my <a href="https://thingspeak.com/channels/447280">ThingSpeak</a> platform channel are below.
+									</p>
+									<div class="centered">
+									<div class = "ib">
+									<iframe width="450" height="260" style="border: 1px solid #cccccc; border-radius: 10px;" src="https://thingspeak.com/channels/447280/charts/1?bgcolor=%23d2d2d2&color=%23dd9300&dynamic=true&results=10&type=spline"></iframe>
+									</div>
+									
+									<div class = "ib">
+									<iframe width="450" height="260" style="border: 1px solid #cccccc; border-radius: 10px;" src="https://thingspeak.com/channels/447280/charts/2?bgcolor=%23d2d2d2&color=%2300dd72&dynamic=true&results=10&type=spline"></iframe>
+									</div>
+									
+									<div class = "ib">
+									<iframe width="450" height="260" style="border: 1px solid #cccccc; border-radius: 10px;" src="https://thingspeak.com/channels/447280/charts/5?bgcolor=%23d2d2d2&color=%23c60d0d&dynamic=true&results=10&type=spline"></iframe>
+									</div>
+									</div>
+								
+                                </div><!--//desc-->                      
+                            </div><!--//item-->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section>
 		
 			<!--***Post***-->
                <section class="latest section">
